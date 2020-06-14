@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FDK Build Notes | afdko</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="FDK Build Notes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Adobe Font Development Kit for OpenType" />
+<meta property="og:description" content="Adobe Font Development Kit for OpenType" />
+<link rel="canonical" href="http://localhost:4000/FDK_Build_Notes.html" />
+<meta property="og:url" content="http://localhost:4000/FDK_Build_Notes.html" />
+<meta property="og:site_name" content="afdko" />
+<script type="application/ld+json">
+{"headline":"FDK Build Notes","description":"Adobe Font Development Kit for OpenType","@type":"WebPage","url":"http://localhost:4000/FDK_Build_Notes.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=c7cf498e7b54a71d789595dba477d4960c9d8b84">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">afdko</a></h1>
+      
+
+      <h1 id="fdk-build-notes">FDK Build Notes</h1>
+
+<h4 id="v121-october-2019">v1.2.1 October 2019</h4>
+
+<h2 id="overview">Overview</h2>
+<p>These instructions are for users who wish to build the C programs in the AFDKO on their own. If you have obtained the AFDKO through <a href="https://pypi.org/project/afdko/">PyPI</a> (<code class="language-plaintext highlighter-rouge">pip</code>), you can ignore this, as everything is pre-built for distribution on PyPI. These are really only for users who need to build on platforms that are not officially supported, or wish to make other custom changes.</p>
+
+<h2 id="fdk-build-directory-tree">FDK build directory tree</h2>
+
+<p>The FDK build directory tree is pretty straightforward. The basic structure is:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>afdko/
+└── c/
+    └── &lt;component&gt;/
+        ├── build/
+        │   └── &lt;platform&gt;/
+        │       └── &lt;compiler&gt;/
+        │           ├── Debug/
+        │           └── Release/
+        ├── exe/
+        │   └── &lt;platform&gt;/
+        │       ├── Debug/
+        │       └── Release/
+        └── source/
+</code></pre></div></div>
+
+<p>When a tool uses a library, then the project for the main tool contains the projects for all the libraries. The libraries are grouped under the main directory:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;component&gt;/
+└── &lt;library group name&gt;/
+    ├── api/
+    ├── build/
+    ├── lib/
+    └── source/
+</code></pre></div></div>
+<p>with sub-directories for <code class="language-plaintext highlighter-rouge">build/</code> and <code class="language-plaintext highlighter-rouge">lib/</code> being the same as for the program <code class="language-plaintext highlighter-rouge">build/</code> and <code class="language-plaintext highlighter-rouge">exe/</code> directories.</p>
+
+<h2 id="special-cases">Special cases</h2>
+<p><code class="language-plaintext highlighter-rouge">tx</code>, <code class="language-plaintext highlighter-rouge">mergefonts</code>, and <code class="language-plaintext highlighter-rouge">rotatefont</code> share a common set of libraries and resource files. These libraries are grouped under the public directory in:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>afdko/
+└── c/
+    └── public/
+        └── lib/
+            ├── api/
+            ├── build/
+            ├── lib/
+            ├── resource/
+            └── source/
+</code></pre></div></div>
+
+<h2 id="build-scripts">Build scripts</h2>
+
+<p>The collection of C programs in the FDK can be built by running one of the following scripts in <code class="language-plaintext highlighter-rouge">afdko/c/</code>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>script name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mac</td>
+      <td><code class="language-plaintext highlighter-rouge">buildall.sh</code></td>
+    </tr>
+    <tr>
+      <td>Windows</td>
+      <td><code class="language-plaintext highlighter-rouge">buildall.cmd</code></td>
+    </tr>
+    <tr>
+      <td>Linux</td>
+      <td><code class="language-plaintext highlighter-rouge">buildalllinux.sh</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="document-version-history">Document Version History</h4>
+<p>Version 1.0.0<br />
+Version 1.2.0 July 18 2019<br />
+Version 1.2.1 - Convert to Markdown, update content - October 2019</p>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/adobe-type-tools/afdko/edit/gh-pages/FDK_Build_Notes.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>

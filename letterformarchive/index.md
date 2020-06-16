@@ -54,6 +54,9 @@
 
 [@NativeLangsTech](https://twitter.com/NativeLangsTech)
 
+### Warang Citi
+
+[Warang Citi Keyboard](https://help.keyman.com/keyboard/warang_citi/1.0/warang_citi)
 
 ### Chakma
 
@@ -76,7 +79,6 @@
 [Manuscripts of Nepal](https://www.facebook.com/manuscriptsofnepal)
 
 
-
 ### Sharada
 [@CoreSharada](https://twitter.com/CoreSharada)
 
@@ -88,13 +90,13 @@
 
 [Shardapeetham](https://play.google.com/store/apps/details?id=com.karan.raina.sharda.sharda)
 
-![Bhaiksuki GGRAU](/images/LetterformArchive.png "Bhaiksuki ggrau")
+![Bhaiksuki GGRAU](/images/LetterformArchive.png "Bhaiksuki GGRAU")
 
 ![Chakma Letter MAA](/images/LetterformArchive2.png "Chakma MAA")
 
 ![Grantha OM](/images/LetterformArchive3.png "Grantha OM")
 
-![Marchen LA_TA_O](/images/LetterformArchive4.png "Marchen LA_TA_O")
+![Marchen LA_TA_O](/images/LetterformArchive4.png "Marchen LTO")
 
 ![Ranjana KYA](/images/LetterformArchive5.png "Ranjana KYA")
 
@@ -102,11 +104,11 @@
 
 ![Cham MA](/images/LetterformArchive7.png "Cham MA")
 
-![Javanese jha.alt1](/images/LetterformArchive8.png "Javanese jha.alt1")
+![Javanese jha.alt1](/images/LetterformArchive8.png "Javanese JHA")
 
 ![Mende Kikakui syllable M088 FO](/images/LetterformArchive9.png "Mende Kikakui syllable M088 FO")
 
-![Newa CCha](/images/LetterformArchive10.png "Newa CCha")
+![Newa CHA](/images/LetterformArchive10.png "Newa CHA")
 
 ![Bengali da_bha_ra](/images/LetterformArchive11.png "Bengali da_bha_ra")
 

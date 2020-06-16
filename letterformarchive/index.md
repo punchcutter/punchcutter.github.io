@@ -132,6 +132,6 @@
 
 ***
 
-[email](zarijoscha@gmail.com)
+[email Zachary Scheuren](mailto:zarijoscha@gmail.com)
 
 [Twitter](https://twitter.com/zacharyscheuren)

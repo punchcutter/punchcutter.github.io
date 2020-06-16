@@ -88,42 +88,42 @@
 
 [Shardapeetham](https://play.google.com/store/apps/details?id=com.karan.raina.sharda.sharda)
 
-![Bhaiksuki GGRAU](images/LetterformArchive.png "Bhaiksuki ggrau")
+![Bhaiksuki GGRAU](/images/LetterformArchive.png "Bhaiksuki ggrau")
 
-![Chakma Letter MAA](images/LetterformArchive2.png "Chakma MAA")
+![Chakma Letter MAA](/images/LetterformArchive2.png "Chakma MAA")
 
-![Grantha OM](images/LetterformArchive3.png "Grantha OM")
+![Grantha OM](/images/LetterformArchive3.png "Grantha OM")
 
-![Marchen LA_TA_O](images/LetterformArchive4.png "Marchen LA_TA_O")
+![Marchen LA_TA_O](/images/LetterformArchive4.png "Marchen LA_TA_O")
 
-![Ranjana KYA](images/LetterformArchive5.png "Ranjana KYA")
+![Ranjana KYA](/images/LetterformArchive5.png "Ranjana KYA")
 
-![Grantha SHRA](images/LetterformArchive6.png "Grantha SHRA")
+![Grantha SHRA](/images/LetterformArchive6.png "Grantha SHRA")
 
-![Cham MA](images/LetterformArchive7.png "Cham MA")
+![Cham MA](/images/LetterformArchive7.png "Cham MA")
 
-![Javanese jha.alt1](images/LetterformArchive8.png "Javanese jha.alt1")
+![Javanese jha.alt1](/images/LetterformArchive8.png "Javanese jha.alt1")
 
-![Mende Kikakui syllable M088 FO](images/LetterformArchive9.png "Mende Kikakui syllable M088 FO")
+![Mende Kikakui syllable M088 FO](/images/LetterformArchive9.png "Mende Kikakui syllable M088 FO")
 
-![Newa CCha](images/LetterformArchive10.png "Newa CCha")
+![Newa CCha](/images/LetterformArchive10.png "Newa CCha")
 
-![Bengali da_bha_ra](images/LetterformArchive11.png "Bengali da_bha_ra")
+![Bengali da_bha_ra](/images/LetterformArchive11.png "Bengali da_bha_ra")
 
-![Ahom CHA](images/LetterformArchive12.png "Ahom CHA")
+![Ahom CHA](/images/LetterformArchive12.png "Ahom CHA")
 
-![YI syllable BBU A06E](images/LetterformArchive13.png "YI syllable BBU A06E")
+![YI syllable BBU A06E](/images/LetterformArchive13.png "YI syllable BBU A06E")
 
-![Wancho MA](images/LetterformArchive14.png "Wancho MA")
+![Wancho MA](/images/LetterformArchive14.png "Wancho MA")
 
-![Wancho AU](images/LetterformArchive15.png "Wancho AU")
+![Wancho AU](/images/LetterformArchive15.png "Wancho AU")
 
-![Wancho TA](images/LetterformArchive16.png "Wancho TA")
+![Wancho TA](/images/LetterformArchive16.png "Wancho TA")
 
-![Buginese YA](images/LetterformArchive17.png "Buginese YA")
+![Buginese YA](/images/LetterformArchive17.png "Buginese YA")
 
-![Newa I](images/LetterformArchive18.png "Newa I")
+![Newa I](/images/LetterformArchive18.png "Newa I")
 
-![Warang Citi da](images/LetterformArchive19.png "Warang Citi da")
+![Warang Citi da](/images/LetterformArchive19.png "Warang Citi da")
 
-![Warang Citi sii](images/LetterformArchive20.png "Warang Citi sii")
+![Warang Citi sii](/images/LetterformArchive20.png "Warang Citi sii")

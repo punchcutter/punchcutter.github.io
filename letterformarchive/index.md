@@ -129,3 +129,9 @@
 ![Warang Citi da](/images/LetterformArchive19.png "Warang Citi da")
 
 ![Warang Citi sii](/images/LetterformArchive20.png "Warang Citi sii")
+
+***
+
+[email](zarijoscha@gmail.com)
+
+[Twitter](https://twitter.com/zacharyscheuren)

@@ -1,5 +1,5 @@
 
-## Writing Systems
+## Links related to Letterform Archive talk [How to Kill a Writing System](https://letterformarchive.org/events/how-to-kill-a-writing-system)
 
 ### Happening Now (June 2020)
 [Alphabettes – It’s time to act](http://www.alphabettes.org/its-time-to-act/)

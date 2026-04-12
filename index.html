@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/tsa7feh.css">
+  <title>Zachary Scheuren</title>
+  <style>
+    :root {
+      --bg: #222222;
+      --fg: #e8e8e8;
+      --link: #e8e8e8;
+      --link-hover: #aaa;
+    }
+
+    @font-face {
+        font-family: "gigantic", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .gigantic = {
+        font-family: gigantic, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "gigantic", 'Times New Roman', serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 3rem 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 4rem;
+      letter-spacing: 0.02em;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.15s;
+    }
+
+    a:hover {
+      color: var(--link-hover);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="images/p_punch.png" alt="p punch">
+    <nav>
+    </nav>
+  </main>
+</body>
+</html>

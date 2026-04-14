@@ -47,6 +47,13 @@
       align-items: center;
       gap: 2rem;
       padding: 3rem 1.5rem;
+      width: 100%;       /* ← add this so main doesn't exceed viewport */
+    }   
+
+    img {
+        max-width: 100%;   /* ← constrains image to its container */
+        height: auto;      /* ← preserves aspect ratio */
+        display: block;    /* ← removes the small gap below inline images */
     }
 
     nav {

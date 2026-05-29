@@ -4,37 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.typekit.net/tsa7feh.css">
+  <link rel="stylesheet" href="style.css">
   <title>Zachary Scheuren</title>
   <style>
-    :root {
-      --bg: #222222;
-      --fg: #e8e8e8;
-      --link: #e8e8e8;
-      --link-hover: #aaa;
-    }
-
-    @font-face {
-        font-family: "gigantic", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-    }
-
-    .gigantic = {
-        font-family: gigantic, sans-serif;
-        font-weight: 900;
-        font-style: normal;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      background: var(--bg);
-      color: var(--fg);
-      font-family: "gigantic", 'Times New Roman', serif;
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -45,15 +18,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 2rem;
+      gap: 2.5rem;
       padding: 3rem 1.5rem;
-      width: 100%;       /* ← add this so main doesn't exceed viewport */
-    }   
-
-    img {
-        max-width: 100%;   /* ← constrains image to its container */
-        height: auto;      /* ← preserves aspect ratio */
-        display: block;    /* ← removes the small gap below inline images */
+      width: 100%;
     }
 
     nav {
@@ -65,15 +32,8 @@
       letter-spacing: 0.02em;
     }
 
-    a {
-      color: var(--link);
-      text-decoration: underline;
-      text-underline-offset: 3px;
-      transition: color 0.15s;
-    }
-
-    a:hover {
-      color: var(--link-hover);
+    nav a {
+      text-decoration: none;
     }
   </style>
 </head>
@@ -81,8 +41,10 @@
   <main>
     <img src="images/p_punch.png" alt="p punch">
     <nav>
+      <a href="about/">About</a>
+      <a href="letterformarchive/">Writing Systems</a>
+      <a href="keyboards/">Keyboards</a>
     </nav>
   </main>
 </body>
 </html>
-
